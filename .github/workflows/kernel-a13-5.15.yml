@@ -5,6 +5,7 @@ permissions:
 
 on:
   workflow_call:  # This allows this workflow to be called from another workflow
+  workflow_dispatch:
     inputs:
       make_release:
         required: true
